@@ -1,0 +1,113 @@
+html,
+body {
+
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8m;
+  color: #666;
+
+
+
+}
+
+.sect1{
+
+  background-image: url(sky.jpg);
+  min-height: 100%;
+}
+.sect2{
+
+  background-image: url(lightning.jpg);
+  height: 100%;
+  opacity: 0.8;
+
+
+}
+.sect3{
+  background-image: url(desert.jpg);
+  width: 100%;
+  height:100%;
+  
+}
+
+
+  .sect1 ,.sect2 ,.sect3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.first{
+
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size:40px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color:black;
+  font-style: normal;
+  padding: 5px;
+  
+
+
+
+}
+.bg1{
+
+  background-color: rgb(127, 190, 249);
+  
+  padding: 5px;
+  border: 4px solid skyblue;
+  border-radius: 8px;
+}
+.text1{
+  background-color: aliceblue;
+  margin: 0;
+  border: 2px;
+  padding: 50px;
+  text-align: center;
+}
+.bg2{
+  background-color: rgb(88, 140, 252);
+  color: black;
+  border: 4px solid rgb(86, 128, 254);
+  border-radius: 8px;
+
+}
+.second{
+
+position: absolute;
+text-align: center;
+top: 50%;  /* matlab top se itti distance chod do*/
+font-size: 40px;
+
+font-weight: 100;
+letter-spacing: 5px;
+width: 100%;
+
+}
+.third{
+
+  position: absolute;
+  text-align: center;
+  top: 50%;  /* matlab top se itti distance chod do*/
+  font-size: 40px;
+  
+  font-weight: 100;
+  letter-spacing: 5px;
+  width: 100%;
+  
+  }
+  .bg3{
+    background-color: burlywood;
+    border: 4px solid rgb(247, 180, 92);
+    border-radius: 2px;
+  }
